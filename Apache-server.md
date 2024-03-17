@@ -7,7 +7,6 @@ Table of Contents:
 - Introduction
 - Installation
 - Usage
-- Contributing
 - License
 
 Introduction:
@@ -80,5 +79,13 @@ sudo firewall-cmd --reload
 # Edit PHPMyAdmin config
 sudo sed -i 's/local/"all granted"/g' /etc/httpd/conf.d/phpmyadmin.conf
 ```
+Usage :
+
+Access the web server by opening your browser and visiting http://localhost. You should see the default Apache page.
+Access PHPMyAdmin by visiting http://localhost/phpmyadmin. Log in using your MySQL credentials.
+
+License:
+
+This project is licensed under the Unlicense.
 
 
